@@ -1,0 +1,16 @@
+header {
+  background: var(--color-box-header);
+  width: 100vw;
+  max-width: 933px;
+  padding: 2.4rem 0.8rem;
+}
+
+header .logo {
+  width: 24rem;
+}
+
+@media (max-width: 767px) {
+  header .logo {
+    width: 60%;
+  }
+}

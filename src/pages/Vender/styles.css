@@ -1,0 +1,33 @@
+.vender {
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 6.4rem;
+  padding: 6.4rem;
+}
+
+.voltar {
+  display: flex;
+  justify-content: flex-end;
+  padding: 1.2rem 0;
+}
+
+.voltar a {
+  display: flex;
+  align-items: flex-end;
+  border: 0.2rem solid var(--color-button);
+  color: var(--color-button);
+  padding: 0.8rem 2.4rem;
+  font-weight: bold;
+  cursor: pointer;
+  border-radius: 0.3rem;
+  outline: none;
+  text-decoration: none;
+}
+
+.voltar a:hover {
+  background: var(--color-button);
+  color: #ffffff;
+  transition: 0.2s;
+}

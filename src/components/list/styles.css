@@ -1,0 +1,107 @@
+.box-car {
+  display: flex;
+  margin: 4.8rem 0;
+  justify-content: space-between;
+}
+
+.box-car h1 {
+  color: var(--color-primary);
+  font-weight: 300;
+  font-size: 2.8rem;
+}
+
+.box-car h2 {
+  font-weight: 300;
+  font-size: 2rem;
+}
+
+.line {
+  height: 1px;
+  background: var(--color-text-base);
+  width: 100%;
+}
+
+.left img {
+  width: 30rem;
+  height: 20rem;
+}
+
+.right {
+  margin-left: 2.4rem;
+  width: 100%;
+}
+
+.info {
+  display: flex;
+  flex-direction: column;
+  margin: 2.4rem 0;
+}
+
+.price {
+  display: flex;
+  justify-content: flex-end;
+  font-size: 2.4rem;
+  color: var(--color-primary);
+}
+.price strong {
+  font-size: 1.8rem;
+  padding-right: 0.4rem;
+}
+
+.voltar {
+  display: flex;
+  justify-content: flex-end;
+  padding: 1.2rem 0;
+}
+
+.voltar a {
+  display: flex;
+  align-items: flex-end;
+  border: 0.2rem solid var(--color-button);
+  color: var(--color-button);
+  padding: 0.8rem 2.4rem;
+  font-weight: bold;
+  cursor: pointer;
+  border-radius: 0.3rem;
+  outline: none;
+  text-decoration: none;
+}
+
+.voltar a:hover {
+  background: var(--color-button);
+  color: #ffffff;
+  transition: 0.2s;
+}
+
+@media (max-width: 767px) {
+  .left {
+    width: 45%;
+  }
+  .left img {
+    width: 100%;
+    height: auto;
+  }
+
+  .box-car h1 {
+    font-size: 2.4rem;
+  }
+
+  .box-car h2 {
+    font-weight: 300;
+    font-size: 1.8rem;
+  }
+  .info {
+    font-size: 1.4rem;
+  }
+
+  .price {
+    display: flex;
+    justify-content: flex-end;
+    font-size: 2rem;
+    color: var(--color-primary);
+  }
+  .price strong {
+    font-size: 1.4rem;
+    padding-right: 0.4rem;
+  }
+}
